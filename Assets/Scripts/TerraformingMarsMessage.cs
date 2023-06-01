@@ -68,6 +68,32 @@ public class JoinGameRoom : MessageData
     }
 }
 
+//Server sends, client receives.
+public class JoinGameRoomResult : MessageData
+{
+    public bool IsSuccess;
+    public bool IsLeader;
+
+    public JoinGameRoomResult(bool isSuccess, bool isLeader)
+    {
+        IsSuccess = isSuccess;
+        IsLeader = isLeader;
+    }
+}
+
+//Client sends, Server receives.
+public class LeaveGameRoom : MessageData
+{
+    public string UserId;
+    public int GameRoomId;
+
+    public LeaveGameRoom(string userId, int gameRoomId)
+    {
+        UserId = userId;
+        GameRoomId = gameRoomId;
+    }
+}
+
 //Client sends, Server receives.
 public class SendChatMessage : MessageData
 {
@@ -105,16 +131,29 @@ public class InvitePlayerResult : MessageData
 }
 
 //Client sends, Server receives.
+public class KickPlayer : MessageData
+{
+    public string User;
+    public string UserToKick;
+    public int GameRoom;
+
+    public KickPlayer(string user, string userToKick, int gameRoom)
+    {
+        User = user;
+        UserToKick = userToKick;
+        GameRoom = gameRoom;
+    }
+}
+
+//Client sends, Server receives.
 public class StartGameMessage : MessageData
 {
     public string FirstUser;
-    public string SecondUser;
     public int Difficulty = 1;
 
-    public StartGameMessage(string firstUser, string secondUser, int difficulty = 1)
+    public StartGameMessage(string firstUser, int difficulty = 1)
     {
         FirstUser = firstUser;
-        SecondUser = secondUser;
         Difficulty = difficulty;
     }
 }
@@ -203,8 +242,10 @@ public class BuyBuildingResultMessage : MessageData
 public enum CommunicationType
 {
     JoinMultiplayerLobby, JoinMultiplayerLobbyResult,
-    SendChatMessage, CreateGameRoom, JoinGameRoom,
-    LeaveGameRoom, InvitePlayer, InvitePlayerResult, KickPlayer,
+    SendChatMessage, CreateGameRoom,
+    JoinGameRoom, JoinGameRoomResult,
+    LeaveGameRoom,
+    InvitePlayer, InvitePlayerResult, KickPlayer,
     StartGame, StartGameResult,
     GetGameState, GetGameStateResult,
     BuyBuilding, BuyBuildingResult

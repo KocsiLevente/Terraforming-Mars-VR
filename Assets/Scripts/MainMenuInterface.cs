@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using OVRTouchSample;
+//Comment out OVRTouchSample if working without VR headset.
+using OVRTouchSample;
 using System;
 using System.Text;
 
@@ -20,11 +21,15 @@ public class MainMenuInterface : MonoBehaviour
 
     //Multiplayer related.
     private bool IsUserLoggedIn = false;
-    private bool IsInGameRoom = false;
+    public static bool IsInGameRoom = false;
     private bool IsJoiningGameRoom = false;
-    private bool IsGameRoomLeader = false;
+    private bool IsInvitingPlayer = false;
+    private bool IsKickingPlayer = false;
+    public static bool IsGameRoomLeader = false;
     private int SelectedGameRoomIndex = 0;
     private GameRoom SelectedGameRoom = null;
+    private int SelectedUserIndex = 0;
+    private TerraformingMarsUser SelectedUser = null;
 
     public int SelectedMenuItemId, SelectedLoadMenuItemId, SelectedOptionsMenuItemId, SelectedMultiplayerMenuItemId = 1;
 
@@ -332,8 +337,9 @@ public class MainMenuInterface : MonoBehaviour
             }
         }
 
-        menuDirInput = Input.GetKeyDown(KeyCode.DownArrow)/*OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick)*/ ?
-            new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
+        //Use the outcommented row and do not use OVRInput if testing without VR headset.
+        menuDirInput = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+        //menuDirInput = Input.GetKeyDown(KeyCode.DownArrow) ? new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
         if (RightThumbIsReset)
         {
             if (menuDirInput.y < -0.25f)
@@ -367,7 +373,9 @@ public class MainMenuInterface : MonoBehaviour
         }
 
         //Select the actual menu item.
-        if (Input.GetKeyDown(KeyCode.KeypadEnter)/*OVRInput.GetDown(OVRInput.Button.One)*/)
+        //Use the outcommented row and do not use OVRInput if testing without VR headset.
+        if (OVRInput.GetDown(OVRInput.Button.One))
+        //if (Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             switch (SelectedMenuItemId)
             {
@@ -466,8 +474,9 @@ public class MainMenuInterface : MonoBehaviour
             }
         }
 
-        loadMenuDirInput = Input.GetKeyDown(KeyCode.DownArrow)/*OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick)*/ ?
-            new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
+        //Use the outcommented row and do not use OVRInput if testing without VR headset.
+        loadMenuDirInput = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+        //loadMenuDirInput = Input.GetKeyDown(KeyCode.DownArrow) ? new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
         {
             if (loadMenuDirInput.y < -0.25f)
             {
@@ -500,7 +509,9 @@ public class MainMenuInterface : MonoBehaviour
         }
 
         //Select the menu item.
-        if (Input.GetKeyDown(KeyCode.KeypadEnter)/*OVRInput.GetDown(OVRInput.Button.One)*/)
+        //Use the outcommented row and do not use OVRInput if testing without VR headset.
+        if (OVRInput.GetDown(OVRInput.Button.One))
+        //if (Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             string resFolderPath = Application.dataPath + "\\Resources\\";
 
@@ -513,12 +524,14 @@ public class MainMenuInterface : MonoBehaviour
                     IsGameStarted = true;
                     break;
                 case 2:
-                    //TODO load with another save
-                    //IsGameStarted = true;
+                    GameDatabaseService.LoadGameData();
+                    CreateGameObjects();
+                    IsGameStarted = true;
                     break;
                 case 3:
-                    //TODO load with another save
-                    //IsGameStarted = true;
+                    GameDatabaseService.LoadGameData();
+                    CreateGameObjects();
+                    IsGameStarted = true;
                     break;
                 case 4:
                     //Go back to main menu.
@@ -774,8 +787,9 @@ public class MainMenuInterface : MonoBehaviour
                 }
             }
 
-            multiplayerMenuDirInput = Input.GetKeyDown(KeyCode.DownArrow)/*OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick)*/ ?
-                new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
+            //Use the outcommented row and do not use OVRInput if testing without VR headset.
+            multiplayerMenuDirInput = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+            //multiplayerMenuDirInput = Input.GetKeyDown(KeyCode.DownArrow) ? new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
             if (RightThumbIsReset)
             {
                 if (multiplayerMenuDirInput.y < -0.25f)
@@ -806,6 +820,32 @@ public class MainMenuInterface : MonoBehaviour
                         {
                             SelectedGameRoom = null;
                             SelectedGameRoomIndex = 0;
+                        }
+                    }
+                    else if (IsInvitingPlayer)
+                    {
+                        //Deselect
+                        if (SelectedUser != null)
+                        {
+                            TerraformingMarsUserAdapter.views.Find(tmuv => tmuv.user.OuterId == SelectedUser.OuterId).OnSelected(true);
+                        }
+                        //Select
+                        if (TerraformingMarsUserAdapter.views.Count > SelectedUserIndex + 1)
+                        {
+                            SelectedUserIndex++;
+                            SelectedUser = TerraformingMarsUserAdapter.views[SelectedUserIndex].user;
+                            TerraformingMarsUserAdapter.views[SelectedUserIndex].OnSelected(false);
+                        }
+                        else if (TerraformingMarsUserAdapter.views.Count > 0)
+                        {
+                            SelectedUserIndex = 0;
+                            SelectedUser = TerraformingMarsUserAdapter.views[SelectedUserIndex].user;
+                            TerraformingMarsUserAdapter.views[SelectedUserIndex].OnSelected(false);
+                        }
+                        else
+                        {
+                            SelectedUser = null;
+                            SelectedUserIndex = 0;
                         }
                     }
                     else
@@ -895,7 +935,9 @@ public class MainMenuInterface : MonoBehaviour
             }
 
             //Select the menu item.
-            if (Input.GetKeyDown(KeyCode.KeypadEnter)/*OVRInput.GetDown(OVRInput.Button.One)*/)
+            //Use the outcommented row and do not use OVRInput if testing without VR headset.
+            if (OVRInput.GetDown(OVRInput.Button.One))
+            //if (Input.GetKeyDown(KeyCode.KeypadEnter))
             {
                 if (IsInGameRoom)
                 {
@@ -905,12 +947,19 @@ public class MainMenuInterface : MonoBehaviour
                         {
                             case 1:
                                 //Start the game.
-                                //IsGameStarted = true;
+                                IsGameStarted = true;
                                 IsMultiplayerGame = true;
+                                TerraformingMarsClient.StartGame(SelectedGameRoom.Id);
                                 break;
                             case 2:
                                 //Invite player.
-                                //TODO INVITE
+                                IsInvitingPlayer = true;
+                                SelectedUserIndex = 0;
+                                if (TerraformingMarsUserAdapter.views.Count > 0)
+                                {
+                                    SelectedUser = TerraformingMarsUserAdapter.views[SelectedUserIndex].user;
+                                    TerraformingMarsUserAdapter.views[SelectedUserIndex].OnSelected(false);
+                                }
                                 break;
                             case 3:
                                 //Send chat message.
@@ -918,12 +967,18 @@ public class MainMenuInterface : MonoBehaviour
                                 break;
                             case 4:
                                 //Leave game room.
-                                IsInGameRoom = false;
-                                IsGameRoomLeader = false;
+                                TerraformingMarsClient.LeaveGameRoom(SelectedGameRoom.Id);
                                 break;
                             case 5:
                                 //Kick player.
-                                //TODO KICK
+                                IsKickingPlayer = true;
+                                IsInvitingPlayer = true;
+                                SelectedUserIndex = 0;
+                                if (TerraformingMarsUserAdapter.views.Count > 0)
+                                {
+                                    SelectedUser = TerraformingMarsUserAdapter.views[SelectedUserIndex].user;
+                                    TerraformingMarsUserAdapter.views[SelectedUserIndex].OnSelected(false);
+                                }
                                 break;
                             default:
                                 break;
@@ -935,7 +990,13 @@ public class MainMenuInterface : MonoBehaviour
                         {
                             case 2:
                                 //Invite player.
-                                //TODO INVITE
+                                IsInvitingPlayer = true;
+                                SelectedUserIndex = 0;
+                                if (TerraformingMarsUserAdapter.views.Count > 0)
+                                {
+                                    SelectedUser = TerraformingMarsUserAdapter.views[SelectedUserIndex].user;
+                                    TerraformingMarsUserAdapter.views[SelectedUserIndex].OnSelected(false);
+                                }
                                 break;
                             case 3:
                                 //Send chat message.
@@ -943,7 +1004,7 @@ public class MainMenuInterface : MonoBehaviour
                                 break;
                             case 4:
                                 //Leave game room.
-                                IsInGameRoom = false;
+                                TerraformingMarsClient.LeaveGameRoom(SelectedGameRoom.Id);
                                 break;
                             default:
                                 break;
@@ -954,9 +1015,21 @@ public class MainMenuInterface : MonoBehaviour
                 {
                     if (IsJoiningGameRoom && SelectedGameRoom != null)
                     {
-                        IsInGameRoom = true;
                         IsJoiningGameRoom = false;
                         TerraformingMarsClient.JoinGameRoom(SelectedGameRoom.Id);
+                    }
+                    else if (IsInvitingPlayer && SelectedUser != null)
+                    {
+                        IsInvitingPlayer = false;
+                        if (IsKickingPlayer == true)
+                        {
+                            IsKickingPlayer = false;
+                            TerraformingMarsClient.KickPlayer(SelectedGameRoom.Id, SelectedUser.OuterId);
+                        }
+                        else
+                        {
+                            TerraformingMarsClient.InvitePlayer(SelectedGameRoom.Id, SelectedUser.OuterId);
+                        }
                     }
                     else
                     {
@@ -977,7 +1050,6 @@ public class MainMenuInterface : MonoBehaviour
                                     SelectedGameRoom = GameRoomAdapter.views[SelectedGameRoomIndex].room;
                                     GameRoomAdapter.views[SelectedGameRoomIndex].OnSelected(false);
                                 }
-                                //IsInGameRoom = true;
                                 break;
                             case 3:
                                 //Send chat message.
@@ -1055,8 +1127,9 @@ public class MainMenuInterface : MonoBehaviour
             }
         }
 
-        optionsMenuDirInput = Input.GetKeyDown(KeyCode.DownArrow)/*OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick)*/ ?
-            new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
+        //Use the outcommented row and do not use OVRInput if testing without VR headset.
+        optionsMenuDirInput = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+        //optionsMenuDirInput = Input.GetKeyDown(KeyCode.DownArrow) ? new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
         if (RightThumbIsReset)
         {
             if (optionsMenuDirInput.y < -0.25f)
@@ -1090,7 +1163,9 @@ public class MainMenuInterface : MonoBehaviour
         }
 
         //Select the menu item.
-        if (Input.GetKeyDown(KeyCode.KeypadEnter)/*OVRInput.GetDown(OVRInput.Button.One)*/)
+        //Use the outcommented row and do not use OVRInput if testing without VR headset.
+        if (OVRInput.GetDown(OVRInput.Button.One))
+        //if (Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             switch (SelectedOptionsMenuItemId)
             {

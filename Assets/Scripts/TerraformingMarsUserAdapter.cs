@@ -66,5 +66,13 @@ public class TerraformingMarsUserAdapter : MonoBehaviour
             id = rootView.Find("TerraformingMarsUserItemText").GetComponent<TextMeshProUGUI>();
             user = ur;
         }
+
+        public void OnSelected(bool isDeselect)
+        {
+            if (id != null)
+            {
+                id.color = isDeselect ? Color.white : Color.cyan;
+            }
+        }
     }
 }

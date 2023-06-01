@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using OVRTouchSample;
+//Comment out OVRTouchSample if working without VR headset.
+using OVRTouchSample;
 using System;
 
 //Class for managing the interface of the user.
@@ -173,7 +174,9 @@ public class ShipInterface : MonoBehaviour
             }
 
             //Switching between cameras.
-            if (Input.GetKey(KeyCode.K)/*OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger) > 0.1f*/)
+            //Use the outcommented row and do not use OVRInput if testing without VR headset.
+            if (OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger) > 0.1f)
+            //if (Input.GetKeyDown(KeyCode.K))
             {
                 if (CameraNumber != 8 && PrimaryHandTriggerIsReset)
                 {
@@ -186,7 +189,9 @@ public class ShipInterface : MonoBehaviour
                     CameraNumber = 1;
                 }
             }
-            else if (Input.GetKey(KeyCode.L)/*OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) > 0.1f*/)
+            //Use the outcommented row and do not use OVRInput if testing without VR headset.
+            else if (OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) > 0.1f)
+            //else if (Input.GetKeyDown(KeyCode.L))
             {
                 if (CameraNumber != 1 && SecondaryHandTriggerIsReset)
                 {
@@ -200,16 +205,20 @@ public class ShipInterface : MonoBehaviour
                 }
             }
 
-            if (true/*OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger) == 0.0f*/)
+            //Comment out condition if testing without VR headset.
+            if (OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) == 0.0f)
             {
                 PrimaryHandTriggerIsReset = true;
             }
-            if (true/*OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) == 0.0f*/)
+            //Comment out condition if testing without VR headset.
+            if (OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger) == 0.0f)
             {
                 SecondaryHandTriggerIsReset = true;
             }
 
-            if (Input.GetKey(KeyCode.Q)/*OVRInput.GetDown(OVRInput.Button.One)*/) //B
+            //Use the outcommented row and do not use OVRInput if testing without VR headset.
+            if (OVRInput.GetDown(OVRInput.Button.One)) //B
+            //if (Input.GetKeyDown(KeyCode.Q))
             {
                 //Switching between controls.
                 IsShopControlTurnedOn = !IsShopControlTurnedOn;
@@ -218,9 +227,10 @@ public class ShipInterface : MonoBehaviour
             //If ShopControlTurnedOn then we don't navigate the ship we are navigating on the surface and the shop.
             if (IsShopControlTurnedOn)
             {
-
                 //Moving logic on surface Hexagons.
-                hexagonDirInput = new Vector2(); //OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+                //Use the outcommented row and do not use OVRInput if testing without VR headset.
+                hexagonDirInput = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+                //hexagonDirInput = new Vector2();
                 if (LeftThumbIsReset)
                 {
                     if (hexagonDirInput.x < -0.35f && hexagonDirInput.y > 0.35f)
@@ -260,7 +270,9 @@ public class ShipInterface : MonoBehaviour
                     LeftThumbIsReset = true;
                 }
 
-                if (Input.GetKey(KeyCode.B)/*OVRInput.GetDown(OVRInput.Button.Two)*/) //A
+                //Use the outcommented row and do not use OVRInput if testing without VR headset.
+                if (OVRInput.GetDown(OVRInput.Button.Two)) //A
+                //if (Input.GetKeyDown(KeyCode.B))
                 {
                     //Pop up the shop.
                     IsShopPoppedUp = !IsShopPoppedUp;
@@ -374,8 +386,10 @@ public class ShipInterface : MonoBehaviour
                         }
                     }
 
-                    shopDirInput = Input.GetKey(KeyCode.DownArrow)/*OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick)*/ ?
-                    new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
+                    //Use the outcommented row and do not use OVRInput if testing without VR headset.
+                    shopDirInput = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+                    //shopDirInput = Input.GetKeyDown(KeyCode.DownArrow) ? new Vector2(0f, -0.5f) : new Vector2(0f, 0f);
+
                     if (RightThumbIsReset)
                     {
                         if (shopDirInput.y < -0.25f)
@@ -408,7 +422,9 @@ public class ShipInterface : MonoBehaviour
                         RightThumbIsReset = true;
                     }
 
-                    if (Input.GetKey(KeyCode.KeypadEnter)/*OVRInput.GetDown(OVRInput.Button.SecondaryThumbstick)*/) //Thumbstick left
+                    //Use the outcommented row and do not use OVRInput if testing without VR headset.
+                    if (OVRInput.GetDown(OVRInput.Button.SecondaryThumbstick)) //Thumbstick left
+                    //if (Input.GetKeyDown(KeyCode.KeypadEnter))
                     {
                         switch (SelectedBuildingId)
                         {
@@ -443,17 +459,22 @@ public class ShipInterface : MonoBehaviour
             else
             {
                 //Controls of the SpaceShip.
-                //lookInput = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
-                lookInput.x = Input.mousePosition.x;
-                lookInput.y = Input.mousePosition.y;
+                //Use the outcommented row and do not use OVRInput if testing without VR headset.
+                lookInput = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+                //lookInput.x = Input.mousePosition.x;
+                //lookInput.y = Input.mousePosition.y;
 
-                //mouseDistance = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
-                mouseDistance.x = (lookInput.x - screenCenter.x) / screenCenter.y;
-                mouseDistance.y = (lookInput.y - screenCenter.y) / screenCenter.y;
+                //Use the outcommented row and do not use OVRInput if testing without VR headset.
+                mouseDistance = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+                //mouseDistance.x = (lookInput.x - screenCenter.x) / screenCenter.y;
+                //mouseDistance.y = (lookInput.y - screenCenter.y) / screenCenter.y;
                 mouseDistance = Vector2.ClampMagnitude(mouseDistance, 1.0f);
 
-                rollInputLeft = 0.0f; //OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger);
-                rollInputRight = -1 * 0.0f; //OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger);
+                //Use the outcommented row and do not use OVRInput if testing without VR headset.
+                rollInputLeft = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger);
+                rollInputRight = OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger);
+                //rollInputLeft = 0.0f;
+                //rollInputRight = -1 * 0.0f;
 
                 rollScale = Mathf.Lerp(rollScale, (rollInputLeft + rollInputRight), accelerationRoll * Time.deltaTime);
                 transform.Rotate(-mouseDistance.y * lookRateSpeed * Time.deltaTime, mouseDistance.x * lookRateSpeed * Time.deltaTime, rollScale * rollSpeed * Time.deltaTime, Space.Self);
@@ -477,11 +498,15 @@ public class ShipInterface : MonoBehaviour
                 transform.position += transform.up * activeHS * Time.deltaTime;
             }
 
-            if (Input.GetKey(KeyCode.X)/*OVRInput.GetDown(OVRInput.Button.Three)*/) //X
+            //Use the outcommented row and do not use OVRInput if testing without VR headset.
+            if (OVRInput.GetDown(OVRInput.Button.Three)) //X
+            //if (Input.GetKeyDown(KeyCode.X))
             {
                 IsResourcesPoppedUp = !IsResourcesPoppedUp;
             }
-            if (Input.GetKey(KeyCode.Y)/*OVRInput.GetDown(OVRInput.Button.Four)*/) //Y
+            //Use the outcommented row and do not use OVRInput if testing without VR headset.
+            if (OVRInput.GetDown(OVRInput.Button.Four)) //Y
+            //if (Input.GetKeyDown(KeyCode.Y))
             {
                 IsTerraformingPoppedUp = !IsTerraformingPoppedUp;
             }

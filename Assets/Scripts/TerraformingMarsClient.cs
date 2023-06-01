@@ -83,10 +83,6 @@ public static class TerraformingMarsClient
                         
                         switch (messageToHandle.Type)
                         {
-                            case CommunicationType.StartGameResult:
-                                StartGameResultMessage startGame = (StartGameResultMessage)JsonUtility.FromJson(messageToHandle.Data, typeof(StartGameResultMessage));
-                                GameId = startGame.GameId;
-                                break;
                             case CommunicationType.GetGameStateResult:
                                 GetGameStateResultMessage getGameState = (GetGameStateResultMessage)JsonUtility.FromJson(messageToHandle.Data, typeof(GetGameStateResultMessage));
                                 MultiplayerGame toUpdate = new MultiplayerGame();
@@ -153,6 +149,24 @@ public static class TerraformingMarsClient
                                         updatedChat.ForEach(messages.Add);
                                         updatedGameRoom.ForEach(gameRooms.Add);
                                         break;
+                                    case CommunicationType.JoinGameRoomResult:
+                                        //Reading message.
+                                        JoinGameRoomResult joinGameRoomResult = UnityJsonParser.FromJson<JoinGameRoomResult>(messageToHandle.Data);
+                                        if (joinGameRoomResult.IsSuccess)
+                                        {
+                                            isInGameRoom = true;
+                                            MainMenuInterface.IsInGameRoom = true;
+                                            if (joinGameRoomResult.IsLeader)
+                                            {
+                                                MainMenuInterface.IsGameRoomLeader = true;
+                                            }
+                                        }
+                                        break;
+                                    case CommunicationType.StartGameResult:
+                                        StartGameResultMessage startGame = (StartGameResultMessage)JsonUtility.FromJson(messageToHandle.Data, typeof(StartGameResultMessage));
+                                        GameId = startGame.GameId;
+                                        IsGameStarted = true;
+                                        break;
                                     default:
                                         break;
                                 }
@@ -217,6 +231,84 @@ public static class TerraformingMarsClient
         {
             JoinGameRoom joinGameRoom = new JoinGameRoom(userOuterId, id);
             TerraformingMarsMessage terraformingMarsMessage = new TerraformingMarsMessage(CommunicationType.JoinGameRoom, JsonUtility.ToJson(joinGameRoom));
+            string messageToSend = JsonUtility.ToJson(terraformingMarsMessage);
+
+            //We send the message to the backend.
+            ArraySegment<byte> byteToSend = new ArraySegment<byte>(Encoding.UTF8.GetBytes(messageToSend));
+            var token = new CancellationTokenSource();
+            await clientWebSocket.SendAsync(byteToSend, WebSocketMessageType.Text, true, token.Token);
+        }
+    }
+
+    public static async void LeaveGameRoom(int id)
+    {
+        if (clientWebSocket != null && clientWebSocket.State == WebSocketState.Open)
+        {
+            LeaveGameRoom leaveGameRoom = new LeaveGameRoom(userOuterId, id);
+            TerraformingMarsMessage terraformingMarsMessage = new TerraformingMarsMessage(CommunicationType.LeaveGameRoom, JsonUtility.ToJson(leaveGameRoom));
+            string messageToSend = JsonUtility.ToJson(terraformingMarsMessage);
+
+            //We send the message to the backend.
+            ArraySegment<byte> byteToSend = new ArraySegment<byte>(Encoding.UTF8.GetBytes(messageToSend));
+            var token = new CancellationTokenSource();
+            isInGameRoom = false;
+            MainMenuInterface.IsInGameRoom = false;
+            MainMenuInterface.IsGameRoomLeader = false;
+            await clientWebSocket.SendAsync(byteToSend, WebSocketMessageType.Text, true, token.Token);
+        }
+    }
+
+    public static async void InvitePlayer(int id, string userToInvite)
+    {
+        if (clientWebSocket != null && clientWebSocket.State == WebSocketState.Open)
+        {
+            InvitePlayer invitePlayer = new InvitePlayer(userOuterId, userToInvite, id);
+            TerraformingMarsMessage terraformingMarsMessage = new TerraformingMarsMessage(CommunicationType.InvitePlayer, JsonUtility.ToJson(invitePlayer));
+            string messageToSend = JsonUtility.ToJson(terraformingMarsMessage);
+
+            //We send the message to the backend.
+            ArraySegment<byte> byteToSend = new ArraySegment<byte>(Encoding.UTF8.GetBytes(messageToSend));
+            var token = new CancellationTokenSource();
+            await clientWebSocket.SendAsync(byteToSend, WebSocketMessageType.Text, true, token.Token);
+        }
+    }
+
+    public static async void KickPlayer(int id, string userToKick)
+    {
+        if (clientWebSocket != null && clientWebSocket.State == WebSocketState.Open)
+        {
+            KickPlayer kickPlayer = new KickPlayer(userOuterId, userToKick, id);
+            TerraformingMarsMessage terraformingMarsMessage = new TerraformingMarsMessage(CommunicationType.KickPlayer, JsonUtility.ToJson(kickPlayer));
+            string messageToSend = JsonUtility.ToJson(terraformingMarsMessage);
+
+            //We send the message to the backend.
+            ArraySegment<byte> byteToSend = new ArraySegment<byte>(Encoding.UTF8.GetBytes(messageToSend));
+            var token = new CancellationTokenSource();
+            await clientWebSocket.SendAsync(byteToSend, WebSocketMessageType.Text, true, token.Token);
+        }
+    }
+
+    public static async void StartGame(int gameRoomId)
+    {
+        if (clientWebSocket != null && clientWebSocket.State == WebSocketState.Open)
+        {
+            StartGameMessage startGameMessage = new StartGameMessage(userOuterId, 1);
+            TerraformingMarsMessage terraformingMarsMessage = new TerraformingMarsMessage(CommunicationType.StartGame, JsonUtility.ToJson(startGameMessage));
+            string messageToSend = JsonUtility.ToJson(terraformingMarsMessage);
+
+            //We send the message to the backend.
+            ArraySegment<byte> byteToSend = new ArraySegment<byte>(Encoding.UTF8.GetBytes(messageToSend));
+            var token = new CancellationTokenSource();
+            await clientWebSocket.SendAsync(byteToSend, WebSocketMessageType.Text, true, token.Token);
+        }
+    }
+
+    public static async void BuyBuilding(Buildings type, int hexagonId, int gameId)
+    {
+        if (clientWebSocket != null && clientWebSocket.State == WebSocketState.Open)
+        {
+            BuyBuildingMessage buyBuildingMessage = new BuyBuildingMessage(userOuterId, type, hexagonId, gameId);
+            TerraformingMarsMessage terraformingMarsMessage = new TerraformingMarsMessage(CommunicationType.BuyBuilding, JsonUtility.ToJson(buyBuildingMessage));
             string messageToSend = JsonUtility.ToJson(terraformingMarsMessage);
 
             //We send the message to the backend.
