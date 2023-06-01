@@ -1,0 +1,9981 @@
+{
+  "id": 1,
+  "difficulty": 1,
+  "user": {
+    "name": "User1",
+    "bank": {
+      "credit": 0.0,
+      "metal": 30.0,
+      "titan": 15.0,
+      "plant": 40.0,
+      "energy": 25.0,
+      "heat": 25.0
+    },
+    "incomes": {
+      "credit": 30.0,
+      "metal": 2.0,
+      "titan": 4.0,
+      "plant": 0.0,
+      "energy": -4.0,
+      "heat": 1.0
+    }
+  },
+  "gameBoard": [
+    {
+      "id": 1,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 2,
+          "dir": 1
+        },
+        {
+          "id": 36,
+          "dir": 0
+        },
+        {
+          "id": 38,
+          "dir": 4
+        },
+        {
+          "id": 39,
+          "dir": 5
+        },
+        {
+          "id": 74,
+          "dir": 2
+        },
+        {
+          "id": 75,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 6.257738468032348e-14,
+        "posY": 3.128869234016174e-14,
+        "posZ": 488.9999694824219,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 1,
+          "dir": 0
+        },
+        {
+          "id": 3,
+          "dir": 1
+        },
+        {
+          "id": 39,
+          "dir": 4
+        },
+        {
+          "id": 40,
+          "dir": 5
+        },
+        {
+          "id": 75,
+          "dir": 2
+        },
+        {
+          "id": 76,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 88.73422241210938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 496.76324462890627,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 3,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 2,
+          "dir": 0
+        },
+        {
+          "id": 4,
+          "dir": 1
+        },
+        {
+          "id": 40,
+          "dir": 4
+        },
+        {
+          "id": 41,
+          "dir": 5
+        },
+        {
+          "id": 76,
+          "dir": 2
+        },
+        {
+          "id": 77,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 174.77230834960938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 519.8170166015625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 4,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 3,
+          "dir": 0
+        },
+        {
+          "id": 5,
+          "dir": 1
+        },
+        {
+          "id": 41,
+          "dir": 4
+        },
+        {
+          "id": 42,
+          "dir": 5
+        },
+        {
+          "id": 77,
+          "dir": 2
+        },
+        {
+          "id": 78,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 255.50001525878907,
+        "posY": 3.128869234016174e-14,
+        "posZ": 557.4609375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 5,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 4,
+          "dir": 0
+        },
+        {
+          "id": 6,
+          "dir": 1
+        },
+        {
+          "id": 42,
+          "dir": 4
+        },
+        {
+          "id": 43,
+          "dir": 5
+        },
+        {
+          "id": 78,
+          "dir": 2
+        },
+        {
+          "id": 79,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 328.4644775390625,
+        "posY": 3.128869234016174e-14,
+        "posZ": 608.55126953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 6,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 5,
+          "dir": 0
+        },
+        {
+          "id": 7,
+          "dir": 1
+        },
+        {
+          "id": 43,
+          "dir": 4
+        },
+        {
+          "id": 44,
+          "dir": 5
+        },
+        {
+          "id": 79,
+          "dir": 2
+        },
+        {
+          "id": 80,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 391.4486999511719,
+        "posY": 3.128869234016174e-14,
+        "posZ": 671.5355224609375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 7,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 6,
+          "dir": 0
+        },
+        {
+          "id": 8,
+          "dir": 1
+        },
+        {
+          "id": 44,
+          "dir": 4
+        },
+        {
+          "id": 45,
+          "dir": 5
+        },
+        {
+          "id": 80,
+          "dir": 2
+        },
+        {
+          "id": 81,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 442.53900146484377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 744.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 8,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 7,
+          "dir": 0
+        },
+        {
+          "id": 9,
+          "dir": 1
+        },
+        {
+          "id": 45,
+          "dir": 4
+        },
+        {
+          "id": 46,
+          "dir": 5
+        },
+        {
+          "id": 81,
+          "dir": 2
+        },
+        {
+          "id": 82,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 480.1829528808594,
+        "posY": 3.128869234016174e-14,
+        "posZ": 825.2277221679688,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 9,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 8,
+          "dir": 0
+        },
+        {
+          "id": 10,
+          "dir": 1
+        },
+        {
+          "id": 46,
+          "dir": 4
+        },
+        {
+          "id": 47,
+          "dir": 5
+        },
+        {
+          "id": 82,
+          "dir": 2
+        },
+        {
+          "id": 83,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 503.23675537109377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 911.2658081054688,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 10,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 9,
+          "dir": 0
+        },
+        {
+          "id": 11,
+          "dir": 1
+        },
+        {
+          "id": 47,
+          "dir": 4
+        },
+        {
+          "id": 48,
+          "dir": 5
+        },
+        {
+          "id": 83,
+          "dir": 2
+        },
+        {
+          "id": 84,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 511.0000305175781,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1000.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 11,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 10,
+          "dir": 0
+        },
+        {
+          "id": 12,
+          "dir": 1
+        },
+        {
+          "id": 48,
+          "dir": 4
+        },
+        {
+          "id": 49,
+          "dir": 5
+        },
+        {
+          "id": 84,
+          "dir": 2
+        },
+        {
+          "id": 85,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 503.23675537109377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1088.7342529296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 12,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 11,
+          "dir": 0
+        },
+        {
+          "id": 13,
+          "dir": 1
+        },
+        {
+          "id": 49,
+          "dir": 4
+        },
+        {
+          "id": 50,
+          "dir": 5
+        },
+        {
+          "id": 85,
+          "dir": 2
+        },
+        {
+          "id": 86,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 480.1829528808594,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1174.7723388671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 13,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 12,
+          "dir": 0
+        },
+        {
+          "id": 14,
+          "dir": 1
+        },
+        {
+          "id": 50,
+          "dir": 4
+        },
+        {
+          "id": 51,
+          "dir": 5
+        },
+        {
+          "id": 86,
+          "dir": 2
+        },
+        {
+          "id": 87,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 442.53900146484377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1255.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 14,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 13,
+          "dir": 0
+        },
+        {
+          "id": 15,
+          "dir": 1
+        },
+        {
+          "id": 51,
+          "dir": 4
+        },
+        {
+          "id": 52,
+          "dir": 5
+        },
+        {
+          "id": 87,
+          "dir": 2
+        },
+        {
+          "id": 88,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 391.4486999511719,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1328.4644775390625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 15,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 14,
+          "dir": 0
+        },
+        {
+          "id": 16,
+          "dir": 1
+        },
+        {
+          "id": 52,
+          "dir": 4
+        },
+        {
+          "id": 53,
+          "dir": 5
+        },
+        {
+          "id": 88,
+          "dir": 2
+        },
+        {
+          "id": 89,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 328.4644775390625,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1391.44873046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 16,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 15,
+          "dir": 0
+        },
+        {
+          "id": 17,
+          "dir": 1
+        },
+        {
+          "id": 53,
+          "dir": 4
+        },
+        {
+          "id": 54,
+          "dir": 5
+        },
+        {
+          "id": 89,
+          "dir": 2
+        },
+        {
+          "id": 90,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 255.50001525878907,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1442.5389404296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 17,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 16,
+          "dir": 0
+        },
+        {
+          "id": 18,
+          "dir": 1
+        },
+        {
+          "id": 54,
+          "dir": 4
+        },
+        {
+          "id": 55,
+          "dir": 5
+        },
+        {
+          "id": 90,
+          "dir": 2
+        },
+        {
+          "id": 91,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 174.77230834960938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1480.1829833984375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 18,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 17,
+          "dir": 0
+        },
+        {
+          "id": 19,
+          "dir": 1
+        },
+        {
+          "id": 55,
+          "dir": 4
+        },
+        {
+          "id": 56,
+          "dir": 5
+        },
+        {
+          "id": 91,
+          "dir": 2
+        },
+        {
+          "id": 92,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 88.73422241210938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1503.2366943359375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 19,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 18,
+          "dir": 0
+        },
+        {
+          "id": 20,
+          "dir": 1
+        },
+        {
+          "id": 56,
+          "dir": 4
+        },
+        {
+          "id": 57,
+          "dir": 5
+        },
+        {
+          "id": 92,
+          "dir": 2
+        },
+        {
+          "id": 93,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 0.0,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1511.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 20,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 19,
+          "dir": 0
+        },
+        {
+          "id": 21,
+          "dir": 1
+        },
+        {
+          "id": 57,
+          "dir": 4
+        },
+        {
+          "id": 58,
+          "dir": 5
+        },
+        {
+          "id": 93,
+          "dir": 2
+        },
+        {
+          "id": 94,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -88.73422241210938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1503.2366943359375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 21,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 20,
+          "dir": 0
+        },
+        {
+          "id": 22,
+          "dir": 1
+        },
+        {
+          "id": 58,
+          "dir": 4
+        },
+        {
+          "id": 59,
+          "dir": 5
+        },
+        {
+          "id": 94,
+          "dir": 2
+        },
+        {
+          "id": 95,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -174.77230834960938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1480.1829833984375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 21,
+          "dir": 0
+        },
+        {
+          "id": 23,
+          "dir": 1
+        },
+        {
+          "id": 59,
+          "dir": 4
+        },
+        {
+          "id": 60,
+          "dir": 5
+        },
+        {
+          "id": 95,
+          "dir": 2
+        },
+        {
+          "id": 96,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -255.50001525878907,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1442.5389404296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 23,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 22,
+          "dir": 0
+        },
+        {
+          "id": 24,
+          "dir": 1
+        },
+        {
+          "id": 60,
+          "dir": 4
+        },
+        {
+          "id": 61,
+          "dir": 5
+        },
+        {
+          "id": 96,
+          "dir": 2
+        },
+        {
+          "id": 97,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -328.4644775390625,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1391.44873046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 24,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 23,
+          "dir": 0
+        },
+        {
+          "id": 25,
+          "dir": 1
+        },
+        {
+          "id": 61,
+          "dir": 4
+        },
+        {
+          "id": 62,
+          "dir": 5
+        },
+        {
+          "id": 97,
+          "dir": 2
+        },
+        {
+          "id": 98,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -391.4486999511719,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1328.4644775390625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 25,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 24,
+          "dir": 0
+        },
+        {
+          "id": 26,
+          "dir": 1
+        },
+        {
+          "id": 62,
+          "dir": 4
+        },
+        {
+          "id": 63,
+          "dir": 5
+        },
+        {
+          "id": 98,
+          "dir": 2
+        },
+        {
+          "id": 99,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -442.53900146484377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1255.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 26,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 25,
+          "dir": 0
+        },
+        {
+          "id": 27,
+          "dir": 1
+        },
+        {
+          "id": 63,
+          "dir": 4
+        },
+        {
+          "id": 64,
+          "dir": 5
+        },
+        {
+          "id": 99,
+          "dir": 2
+        },
+        {
+          "id": 100,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -480.1829528808594,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1174.7723388671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 27,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 26,
+          "dir": 0
+        },
+        {
+          "id": 28,
+          "dir": 1
+        },
+        {
+          "id": 64,
+          "dir": 4
+        },
+        {
+          "id": 65,
+          "dir": 5
+        },
+        {
+          "id": 100,
+          "dir": 2
+        },
+        {
+          "id": 101,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -503.23675537109377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1088.7342529296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 28,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 27,
+          "dir": 0
+        },
+        {
+          "id": 29,
+          "dir": 1
+        },
+        {
+          "id": 65,
+          "dir": 4
+        },
+        {
+          "id": 66,
+          "dir": 5
+        },
+        {
+          "id": 101,
+          "dir": 2
+        },
+        {
+          "id": 102,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -511.0000305175781,
+        "posY": 3.128869234016174e-14,
+        "posZ": 1000.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 29,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 28,
+          "dir": 0
+        },
+        {
+          "id": 30,
+          "dir": 1
+        },
+        {
+          "id": 66,
+          "dir": 4
+        },
+        {
+          "id": 67,
+          "dir": 5
+        },
+        {
+          "id": 102,
+          "dir": 2
+        },
+        {
+          "id": 103,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -503.23675537109377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 911.2658081054688,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 30,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 29,
+          "dir": 0
+        },
+        {
+          "id": 31,
+          "dir": 1
+        },
+        {
+          "id": 67,
+          "dir": 4
+        },
+        {
+          "id": 68,
+          "dir": 5
+        },
+        {
+          "id": 103,
+          "dir": 2
+        },
+        {
+          "id": 104,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -480.1829528808594,
+        "posY": 3.128869234016174e-14,
+        "posZ": 825.2277221679688,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 31,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 30,
+          "dir": 0
+        },
+        {
+          "id": 32,
+          "dir": 1
+        },
+        {
+          "id": 68,
+          "dir": 4
+        },
+        {
+          "id": 69,
+          "dir": 5
+        },
+        {
+          "id": 104,
+          "dir": 2
+        },
+        {
+          "id": 105,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -442.53900146484377,
+        "posY": 3.128869234016174e-14,
+        "posZ": 744.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 32,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 31,
+          "dir": 0
+        },
+        {
+          "id": 33,
+          "dir": 1
+        },
+        {
+          "id": 69,
+          "dir": 4
+        },
+        {
+          "id": 70,
+          "dir": 5
+        },
+        {
+          "id": 105,
+          "dir": 2
+        },
+        {
+          "id": 106,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -391.4486999511719,
+        "posY": 3.128869234016174e-14,
+        "posZ": 671.5355224609375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 33,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 32,
+          "dir": 0
+        },
+        {
+          "id": 34,
+          "dir": 1
+        },
+        {
+          "id": 70,
+          "dir": 4
+        },
+        {
+          "id": 71,
+          "dir": 5
+        },
+        {
+          "id": 106,
+          "dir": 2
+        },
+        {
+          "id": 107,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -328.4644775390625,
+        "posY": 3.128869234016174e-14,
+        "posZ": 608.55126953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 34,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 33,
+          "dir": 0
+        },
+        {
+          "id": 35,
+          "dir": 1
+        },
+        {
+          "id": 71,
+          "dir": 4
+        },
+        {
+          "id": 72,
+          "dir": 5
+        },
+        {
+          "id": 107,
+          "dir": 2
+        },
+        {
+          "id": 108,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -255.50001525878907,
+        "posY": 3.128869234016174e-14,
+        "posZ": 557.4609375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 35,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 34,
+          "dir": 0
+        },
+        {
+          "id": 36,
+          "dir": 1
+        },
+        {
+          "id": 37,
+          "dir": 5
+        },
+        {
+          "id": 72,
+          "dir": 4
+        },
+        {
+          "id": 73,
+          "dir": 3
+        },
+        {
+          "id": 108,
+          "dir": 2
+        }
+      ],
+      "territoryToSave": {
+        "posX": -174.77230834960938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 519.8170166015625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 36,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 35,
+          "dir": 0
+        },
+        {
+          "id": 1,
+          "dir": 1
+        },
+        {
+          "id": 37,
+          "dir": 4
+        },
+        {
+          "id": 38,
+          "dir": 5
+        },
+        {
+          "id": 73,
+          "dir": 2
+        },
+        {
+          "id": 74,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -88.73422241210938,
+        "posY": 3.128869234016174e-14,
+        "posZ": 496.76324462890627,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 37,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 38,
+          "dir": 1
+        },
+        {
+          "id": 35,
+          "dir": 2
+        },
+        {
+          "id": 36,
+          "dir": 3
+        },
+        {
+          "id": 72,
+          "dir": 0
+        },
+        {
+          "id": 143,
+          "dir": 4
+        },
+        {
+          "id": 144,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -130.70361328125,
+        "posY": -70.28242492675781,
+        "posZ": 512.2074584960938,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 38,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 37,
+          "dir": 0
+        },
+        {
+          "id": 39,
+          "dir": 1
+        },
+        {
+          "id": 36,
+          "dir": 2
+        },
+        {
+          "id": 1,
+          "dir": 3
+        },
+        {
+          "id": 109,
+          "dir": 5
+        },
+        {
+          "id": 144,
+          "dir": 4
+        }
+      ],
+      "territoryToSave": {
+        "posX": -44.01365661621094,
+        "posY": -70.28242492675781,
+        "posZ": 496.9216613769531,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 39,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 38,
+          "dir": 0
+        },
+        {
+          "id": 40,
+          "dir": 1
+        },
+        {
+          "id": 1,
+          "dir": 2
+        },
+        {
+          "id": 2,
+          "dir": 3
+        },
+        {
+          "id": 109,
+          "dir": 4
+        },
+        {
+          "id": 110,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 44.01365661621094,
+        "posY": -70.28242492675781,
+        "posZ": 496.9216613769531,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 40,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 39,
+          "dir": 0
+        },
+        {
+          "id": 41,
+          "dir": 1
+        },
+        {
+          "id": 2,
+          "dir": 2
+        },
+        {
+          "id": 3,
+          "dir": 3
+        },
+        {
+          "id": 110,
+          "dir": 4
+        },
+        {
+          "id": 111,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 130.70361328125,
+        "posY": -70.28242492675781,
+        "posZ": 512.2074584960938,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 41,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 40,
+          "dir": 0
+        },
+        {
+          "id": 42,
+          "dir": 1
+        },
+        {
+          "id": 3,
+          "dir": 2
+        },
+        {
+          "id": 4,
+          "dir": 3
+        },
+        {
+          "id": 111,
+          "dir": 4
+        },
+        {
+          "id": 112,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 213.4222412109375,
+        "posY": -70.28242492675781,
+        "posZ": 542.3145751953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 42,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 41,
+          "dir": 0
+        },
+        {
+          "id": 43,
+          "dir": 1
+        },
+        {
+          "id": 4,
+          "dir": 2
+        },
+        {
+          "id": 5,
+          "dir": 3
+        },
+        {
+          "id": 112,
+          "dir": 4
+        },
+        {
+          "id": 113,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 289.6560974121094,
+        "posY": -70.28242492675781,
+        "posZ": 586.3281860351563,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 43,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 42,
+          "dir": 0
+        },
+        {
+          "id": 44,
+          "dir": 1
+        },
+        {
+          "id": 5,
+          "dir": 2
+        },
+        {
+          "id": 6,
+          "dir": 3
+        },
+        {
+          "id": 113,
+          "dir": 4
+        },
+        {
+          "id": 114,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 357.0889587402344,
+        "posY": -70.28242492675781,
+        "posZ": 642.9110107421875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 44,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 43,
+          "dir": 0
+        },
+        {
+          "id": 45,
+          "dir": 1
+        },
+        {
+          "id": 6,
+          "dir": 2
+        },
+        {
+          "id": 7,
+          "dir": 3
+        },
+        {
+          "id": 114,
+          "dir": 4
+        },
+        {
+          "id": 115,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 413.6717834472656,
+        "posY": -70.28242492675781,
+        "posZ": 710.3438720703125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 45,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 44,
+          "dir": 0
+        },
+        {
+          "id": 46,
+          "dir": 1
+        },
+        {
+          "id": 7,
+          "dir": 2
+        },
+        {
+          "id": 8,
+          "dir": 3
+        },
+        {
+          "id": 115,
+          "dir": 4
+        },
+        {
+          "id": 116,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 457.68548583984377,
+        "posY": -70.28242492675781,
+        "posZ": 786.5777587890625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 46,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 45,
+          "dir": 0
+        },
+        {
+          "id": 47,
+          "dir": 1
+        },
+        {
+          "id": 8,
+          "dir": 2
+        },
+        {
+          "id": 9,
+          "dir": 3
+        },
+        {
+          "id": 116,
+          "dir": 4
+        },
+        {
+          "id": 117,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 487.79254150390627,
+        "posY": -70.28242492675781,
+        "posZ": 869.29638671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 47,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 46,
+          "dir": 0
+        },
+        {
+          "id": 48,
+          "dir": 1
+        },
+        {
+          "id": 9,
+          "dir": 2
+        },
+        {
+          "id": 10,
+          "dir": 3
+        },
+        {
+          "id": 117,
+          "dir": 4
+        },
+        {
+          "id": 118,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 503.0783386230469,
+        "posY": -70.28242492675781,
+        "posZ": 955.986328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 48,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 47,
+          "dir": 0
+        },
+        {
+          "id": 49,
+          "dir": 1
+        },
+        {
+          "id": 10,
+          "dir": 2
+        },
+        {
+          "id": 11,
+          "dir": 3
+        },
+        {
+          "id": 118,
+          "dir": 4
+        },
+        {
+          "id": 119,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 503.0783386230469,
+        "posY": -70.28242492675781,
+        "posZ": 1044.013671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 49,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 48,
+          "dir": 0
+        },
+        {
+          "id": 50,
+          "dir": 1
+        },
+        {
+          "id": 11,
+          "dir": 2
+        },
+        {
+          "id": 12,
+          "dir": 3
+        },
+        {
+          "id": 119,
+          "dir": 4
+        },
+        {
+          "id": 120,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 487.79254150390627,
+        "posY": -70.28242492675781,
+        "posZ": 1130.70361328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 50,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 49,
+          "dir": 0
+        },
+        {
+          "id": 51,
+          "dir": 1
+        },
+        {
+          "id": 12,
+          "dir": 2
+        },
+        {
+          "id": 13,
+          "dir": 3
+        },
+        {
+          "id": 120,
+          "dir": 4
+        },
+        {
+          "id": 121,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 457.68548583984377,
+        "posY": -70.28242492675781,
+        "posZ": 1213.4222412109375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 51,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 50,
+          "dir": 0
+        },
+        {
+          "id": 52,
+          "dir": 1
+        },
+        {
+          "id": 13,
+          "dir": 2
+        },
+        {
+          "id": 14,
+          "dir": 3
+        },
+        {
+          "id": 121,
+          "dir": 4
+        },
+        {
+          "id": 122,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 413.6717834472656,
+        "posY": -70.28242492675781,
+        "posZ": 1289.6561279296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 52,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 51,
+          "dir": 0
+        },
+        {
+          "id": 53,
+          "dir": 1
+        },
+        {
+          "id": 14,
+          "dir": 2
+        },
+        {
+          "id": 15,
+          "dir": 3
+        },
+        {
+          "id": 122,
+          "dir": 4
+        },
+        {
+          "id": 123,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 357.0889587402344,
+        "posY": -70.28242492675781,
+        "posZ": 1357.0888671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 53,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 52,
+          "dir": 0
+        },
+        {
+          "id": 54,
+          "dir": 1
+        },
+        {
+          "id": 15,
+          "dir": 2
+        },
+        {
+          "id": 16,
+          "dir": 3
+        },
+        {
+          "id": 123,
+          "dir": 4
+        },
+        {
+          "id": 124,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 289.6560974121094,
+        "posY": -70.28242492675781,
+        "posZ": 1413.6717529296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 54,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 53,
+          "dir": 0
+        },
+        {
+          "id": 55,
+          "dir": 1
+        },
+        {
+          "id": 16,
+          "dir": 2
+        },
+        {
+          "id": 17,
+          "dir": 3
+        },
+        {
+          "id": 124,
+          "dir": 4
+        },
+        {
+          "id": 125,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 213.4222412109375,
+        "posY": -70.28242492675781,
+        "posZ": 1457.6854248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 55,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 54,
+          "dir": 0
+        },
+        {
+          "id": 56,
+          "dir": 1
+        },
+        {
+          "id": 17,
+          "dir": 2
+        },
+        {
+          "id": 18,
+          "dir": 3
+        },
+        {
+          "id": 125,
+          "dir": 4
+        },
+        {
+          "id": 126,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 130.70361328125,
+        "posY": -70.28242492675781,
+        "posZ": 1487.79248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 56,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 55,
+          "dir": 0
+        },
+        {
+          "id": 57,
+          "dir": 1
+        },
+        {
+          "id": 18,
+          "dir": 2
+        },
+        {
+          "id": 19,
+          "dir": 3
+        },
+        {
+          "id": 126,
+          "dir": 4
+        },
+        {
+          "id": 127,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 44.01365661621094,
+        "posY": -70.28242492675781,
+        "posZ": 1503.078369140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 57,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 56,
+          "dir": 0
+        },
+        {
+          "id": 58,
+          "dir": 1
+        },
+        {
+          "id": 19,
+          "dir": 2
+        },
+        {
+          "id": 20,
+          "dir": 3
+        },
+        {
+          "id": 127,
+          "dir": 4
+        },
+        {
+          "id": 128,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -44.01365661621094,
+        "posY": -70.28242492675781,
+        "posZ": 1503.078369140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 58,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 57,
+          "dir": 0
+        },
+        {
+          "id": 59,
+          "dir": 1
+        },
+        {
+          "id": 20,
+          "dir": 2
+        },
+        {
+          "id": 21,
+          "dir": 3
+        },
+        {
+          "id": 128,
+          "dir": 4
+        },
+        {
+          "id": 129,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -130.70361328125,
+        "posY": -70.28242492675781,
+        "posZ": 1487.79248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 59,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 58,
+          "dir": 0
+        },
+        {
+          "id": 60,
+          "dir": 1
+        },
+        {
+          "id": 21,
+          "dir": 2
+        },
+        {
+          "id": 22,
+          "dir": 3
+        },
+        {
+          "id": 129,
+          "dir": 4
+        },
+        {
+          "id": 130,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -213.4222412109375,
+        "posY": -70.28242492675781,
+        "posZ": 1457.6854248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 60,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 59,
+          "dir": 0
+        },
+        {
+          "id": 61,
+          "dir": 1
+        },
+        {
+          "id": 22,
+          "dir": 2
+        },
+        {
+          "id": 23,
+          "dir": 3
+        },
+        {
+          "id": 130,
+          "dir": 4
+        },
+        {
+          "id": 131,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -289.6560974121094,
+        "posY": -70.28242492675781,
+        "posZ": 1413.6717529296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 61,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 60,
+          "dir": 0
+        },
+        {
+          "id": 62,
+          "dir": 1
+        },
+        {
+          "id": 23,
+          "dir": 2
+        },
+        {
+          "id": 24,
+          "dir": 3
+        },
+        {
+          "id": 131,
+          "dir": 4
+        },
+        {
+          "id": 132,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -357.0889587402344,
+        "posY": -70.28242492675781,
+        "posZ": 1357.0888671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 62,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 61,
+          "dir": 0
+        },
+        {
+          "id": 63,
+          "dir": 1
+        },
+        {
+          "id": 24,
+          "dir": 2
+        },
+        {
+          "id": 25,
+          "dir": 3
+        },
+        {
+          "id": 132,
+          "dir": 4
+        },
+        {
+          "id": 133,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -413.6717834472656,
+        "posY": -70.28242492675781,
+        "posZ": 1289.6561279296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 63,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 62,
+          "dir": 0
+        },
+        {
+          "id": 64,
+          "dir": 1
+        },
+        {
+          "id": 25,
+          "dir": 2
+        },
+        {
+          "id": 26,
+          "dir": 3
+        },
+        {
+          "id": 133,
+          "dir": 4
+        },
+        {
+          "id": 134,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -457.68548583984377,
+        "posY": -70.28242492675781,
+        "posZ": 1213.4222412109375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 64,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 63,
+          "dir": 0
+        },
+        {
+          "id": 65,
+          "dir": 1
+        },
+        {
+          "id": 26,
+          "dir": 2
+        },
+        {
+          "id": 27,
+          "dir": 3
+        },
+        {
+          "id": 134,
+          "dir": 4
+        },
+        {
+          "id": 135,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -487.79254150390627,
+        "posY": -70.28242492675781,
+        "posZ": 1130.70361328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 65,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 64,
+          "dir": 0
+        },
+        {
+          "id": 66,
+          "dir": 1
+        },
+        {
+          "id": 27,
+          "dir": 2
+        },
+        {
+          "id": 28,
+          "dir": 3
+        },
+        {
+          "id": 135,
+          "dir": 4
+        },
+        {
+          "id": 136,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -503.0783386230469,
+        "posY": -70.28242492675781,
+        "posZ": 1044.013671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 66,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 65,
+          "dir": 0
+        },
+        {
+          "id": 67,
+          "dir": 1
+        },
+        {
+          "id": 28,
+          "dir": 2
+        },
+        {
+          "id": 29,
+          "dir": 3
+        },
+        {
+          "id": 136,
+          "dir": 4
+        },
+        {
+          "id": 137,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -503.0783386230469,
+        "posY": -70.28242492675781,
+        "posZ": 955.986328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 67,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 66,
+          "dir": 0
+        },
+        {
+          "id": 68,
+          "dir": 1
+        },
+        {
+          "id": 29,
+          "dir": 2
+        },
+        {
+          "id": 30,
+          "dir": 3
+        },
+        {
+          "id": 137,
+          "dir": 4
+        },
+        {
+          "id": 138,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -487.79254150390627,
+        "posY": -70.28242492675781,
+        "posZ": 869.29638671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 68,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 67,
+          "dir": 0
+        },
+        {
+          "id": 69,
+          "dir": 1
+        },
+        {
+          "id": 30,
+          "dir": 2
+        },
+        {
+          "id": 31,
+          "dir": 3
+        },
+        {
+          "id": 138,
+          "dir": 4
+        },
+        {
+          "id": 139,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -457.68548583984377,
+        "posY": -70.28242492675781,
+        "posZ": 786.5777587890625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 69,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 68,
+          "dir": 0
+        },
+        {
+          "id": 70,
+          "dir": 1
+        },
+        {
+          "id": 31,
+          "dir": 2
+        },
+        {
+          "id": 32,
+          "dir": 3
+        },
+        {
+          "id": 139,
+          "dir": 4
+        },
+        {
+          "id": 140,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -413.6717834472656,
+        "posY": -70.28242492675781,
+        "posZ": 710.3438720703125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 70,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 69,
+          "dir": 0
+        },
+        {
+          "id": 71,
+          "dir": 1
+        },
+        {
+          "id": 32,
+          "dir": 2
+        },
+        {
+          "id": 33,
+          "dir": 3
+        },
+        {
+          "id": 140,
+          "dir": 4
+        },
+        {
+          "id": 141,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -357.0889587402344,
+        "posY": -70.28242492675781,
+        "posZ": 642.9110107421875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 71,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 70,
+          "dir": 0
+        },
+        {
+          "id": 72,
+          "dir": 1
+        },
+        {
+          "id": 33,
+          "dir": 2
+        },
+        {
+          "id": 34,
+          "dir": 3
+        },
+        {
+          "id": 141,
+          "dir": 4
+        },
+        {
+          "id": 142,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -289.6560974121094,
+        "posY": -70.28242492675781,
+        "posZ": 586.3281860351563,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 72,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 71,
+          "dir": 0
+        },
+        {
+          "id": 37,
+          "dir": 1
+        },
+        {
+          "id": 34,
+          "dir": 2
+        },
+        {
+          "id": 35,
+          "dir": 3
+        },
+        {
+          "id": 142,
+          "dir": 4
+        },
+        {
+          "id": 143,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -213.4222412109375,
+        "posY": -70.28242492675781,
+        "posZ": 542.3145751953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 73,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 74,
+          "dir": 1
+        },
+        {
+          "id": 35,
+          "dir": 4
+        },
+        {
+          "id": 36,
+          "dir": 5
+        },
+        {
+          "id": 108,
+          "dir": 0
+        },
+        {
+          "id": 179,
+          "dir": 2
+        },
+        {
+          "id": 180,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -130.70361328125,
+        "posY": 70.28242492675781,
+        "posZ": 512.2074584960938,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 74,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 73,
+          "dir": 0
+        },
+        {
+          "id": 75,
+          "dir": 1
+        },
+        {
+          "id": 36,
+          "dir": 4
+        },
+        {
+          "id": 1,
+          "dir": 5
+        },
+        {
+          "id": 145,
+          "dir": 3
+        },
+        {
+          "id": 180,
+          "dir": 2
+        }
+      ],
+      "territoryToSave": {
+        "posX": -44.01365661621094,
+        "posY": 70.28242492675781,
+        "posZ": 496.9216613769531,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 75,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 74,
+          "dir": 0
+        },
+        {
+          "id": 76,
+          "dir": 1
+        },
+        {
+          "id": 1,
+          "dir": 4
+        },
+        {
+          "id": 2,
+          "dir": 5
+        },
+        {
+          "id": 145,
+          "dir": 2
+        },
+        {
+          "id": 146,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 44.01365661621094,
+        "posY": 70.28242492675781,
+        "posZ": 496.9216613769531,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 76,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 75,
+          "dir": 0
+        },
+        {
+          "id": 77,
+          "dir": 1
+        },
+        {
+          "id": 2,
+          "dir": 4
+        },
+        {
+          "id": 3,
+          "dir": 5
+        },
+        {
+          "id": 146,
+          "dir": 2
+        },
+        {
+          "id": 147,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 130.70361328125,
+        "posY": 70.28242492675781,
+        "posZ": 512.2074584960938,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 77,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 76,
+          "dir": 0
+        },
+        {
+          "id": 78,
+          "dir": 1
+        },
+        {
+          "id": 3,
+          "dir": 4
+        },
+        {
+          "id": 4,
+          "dir": 5
+        },
+        {
+          "id": 147,
+          "dir": 2
+        },
+        {
+          "id": 148,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 213.4222412109375,
+        "posY": 70.28242492675781,
+        "posZ": 542.3145751953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 78,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 77,
+          "dir": 0
+        },
+        {
+          "id": 79,
+          "dir": 1
+        },
+        {
+          "id": 4,
+          "dir": 4
+        },
+        {
+          "id": 5,
+          "dir": 5
+        },
+        {
+          "id": 148,
+          "dir": 2
+        },
+        {
+          "id": 149,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 289.6560974121094,
+        "posY": 70.28242492675781,
+        "posZ": 586.3281860351563,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 79,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 78,
+          "dir": 0
+        },
+        {
+          "id": 80,
+          "dir": 1
+        },
+        {
+          "id": 5,
+          "dir": 4
+        },
+        {
+          "id": 6,
+          "dir": 5
+        },
+        {
+          "id": 149,
+          "dir": 2
+        },
+        {
+          "id": 150,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 357.0889587402344,
+        "posY": 70.28242492675781,
+        "posZ": 642.9110107421875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 80,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 79,
+          "dir": 0
+        },
+        {
+          "id": 81,
+          "dir": 1
+        },
+        {
+          "id": 6,
+          "dir": 4
+        },
+        {
+          "id": 7,
+          "dir": 5
+        },
+        {
+          "id": 150,
+          "dir": 2
+        },
+        {
+          "id": 151,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 413.6717834472656,
+        "posY": 70.28242492675781,
+        "posZ": 710.3438720703125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 81,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 80,
+          "dir": 0
+        },
+        {
+          "id": 82,
+          "dir": 1
+        },
+        {
+          "id": 7,
+          "dir": 4
+        },
+        {
+          "id": 8,
+          "dir": 5
+        },
+        {
+          "id": 151,
+          "dir": 2
+        },
+        {
+          "id": 152,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 457.68548583984377,
+        "posY": 70.28242492675781,
+        "posZ": 786.5777587890625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 82,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 81,
+          "dir": 0
+        },
+        {
+          "id": 83,
+          "dir": 1
+        },
+        {
+          "id": 8,
+          "dir": 4
+        },
+        {
+          "id": 9,
+          "dir": 5
+        },
+        {
+          "id": 152,
+          "dir": 2
+        },
+        {
+          "id": 153,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 487.79254150390627,
+        "posY": 70.28242492675781,
+        "posZ": 869.29638671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 83,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 82,
+          "dir": 0
+        },
+        {
+          "id": 84,
+          "dir": 1
+        },
+        {
+          "id": 9,
+          "dir": 4
+        },
+        {
+          "id": 10,
+          "dir": 5
+        },
+        {
+          "id": 153,
+          "dir": 2
+        },
+        {
+          "id": 154,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 503.0783386230469,
+        "posY": 70.28242492675781,
+        "posZ": 955.986328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 84,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 83,
+          "dir": 0
+        },
+        {
+          "id": 85,
+          "dir": 1
+        },
+        {
+          "id": 10,
+          "dir": 4
+        },
+        {
+          "id": 11,
+          "dir": 5
+        },
+        {
+          "id": 154,
+          "dir": 2
+        },
+        {
+          "id": 155,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 503.0783386230469,
+        "posY": 70.28242492675781,
+        "posZ": 1044.013671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 85,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 84,
+          "dir": 0
+        },
+        {
+          "id": 86,
+          "dir": 1
+        },
+        {
+          "id": 11,
+          "dir": 4
+        },
+        {
+          "id": 12,
+          "dir": 5
+        },
+        {
+          "id": 155,
+          "dir": 2
+        },
+        {
+          "id": 156,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 487.79254150390627,
+        "posY": 70.28242492675781,
+        "posZ": 1130.70361328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 86,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 85,
+          "dir": 0
+        },
+        {
+          "id": 87,
+          "dir": 1
+        },
+        {
+          "id": 12,
+          "dir": 4
+        },
+        {
+          "id": 13,
+          "dir": 5
+        },
+        {
+          "id": 156,
+          "dir": 2
+        },
+        {
+          "id": 157,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 457.68548583984377,
+        "posY": 70.28242492675781,
+        "posZ": 1213.4222412109375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 87,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 86,
+          "dir": 0
+        },
+        {
+          "id": 88,
+          "dir": 1
+        },
+        {
+          "id": 13,
+          "dir": 4
+        },
+        {
+          "id": 14,
+          "dir": 5
+        },
+        {
+          "id": 157,
+          "dir": 2
+        },
+        {
+          "id": 158,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 413.6717834472656,
+        "posY": 70.28242492675781,
+        "posZ": 1289.6561279296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 88,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 87,
+          "dir": 0
+        },
+        {
+          "id": 89,
+          "dir": 1
+        },
+        {
+          "id": 14,
+          "dir": 4
+        },
+        {
+          "id": 15,
+          "dir": 5
+        },
+        {
+          "id": 158,
+          "dir": 2
+        },
+        {
+          "id": 159,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 357.0889587402344,
+        "posY": 70.28242492675781,
+        "posZ": 1357.0888671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 89,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 88,
+          "dir": 0
+        },
+        {
+          "id": 90,
+          "dir": 1
+        },
+        {
+          "id": 15,
+          "dir": 4
+        },
+        {
+          "id": 16,
+          "dir": 5
+        },
+        {
+          "id": 159,
+          "dir": 2
+        },
+        {
+          "id": 160,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 289.6560974121094,
+        "posY": 70.28242492675781,
+        "posZ": 1413.6717529296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 90,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 89,
+          "dir": 0
+        },
+        {
+          "id": 91,
+          "dir": 1
+        },
+        {
+          "id": 16,
+          "dir": 4
+        },
+        {
+          "id": 17,
+          "dir": 5
+        },
+        {
+          "id": 160,
+          "dir": 2
+        },
+        {
+          "id": 161,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 213.4222412109375,
+        "posY": 70.28242492675781,
+        "posZ": 1457.6854248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 91,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 90,
+          "dir": 0
+        },
+        {
+          "id": 92,
+          "dir": 1
+        },
+        {
+          "id": 17,
+          "dir": 4
+        },
+        {
+          "id": 18,
+          "dir": 5
+        },
+        {
+          "id": 161,
+          "dir": 2
+        },
+        {
+          "id": 162,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 130.70361328125,
+        "posY": 70.28242492675781,
+        "posZ": 1487.79248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 92,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 91,
+          "dir": 0
+        },
+        {
+          "id": 93,
+          "dir": 1
+        },
+        {
+          "id": 18,
+          "dir": 4
+        },
+        {
+          "id": 19,
+          "dir": 5
+        },
+        {
+          "id": 162,
+          "dir": 2
+        },
+        {
+          "id": 163,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 44.01365661621094,
+        "posY": 70.28242492675781,
+        "posZ": 1503.078369140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 93,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 92,
+          "dir": 0
+        },
+        {
+          "id": 94,
+          "dir": 1
+        },
+        {
+          "id": 19,
+          "dir": 4
+        },
+        {
+          "id": 20,
+          "dir": 5
+        },
+        {
+          "id": 163,
+          "dir": 2
+        },
+        {
+          "id": 164,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -44.01365661621094,
+        "posY": 70.28242492675781,
+        "posZ": 1503.078369140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 94,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 93,
+          "dir": 0
+        },
+        {
+          "id": 95,
+          "dir": 1
+        },
+        {
+          "id": 20,
+          "dir": 4
+        },
+        {
+          "id": 21,
+          "dir": 5
+        },
+        {
+          "id": 164,
+          "dir": 2
+        },
+        {
+          "id": 165,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -130.70361328125,
+        "posY": 70.28242492675781,
+        "posZ": 1487.79248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 95,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 94,
+          "dir": 0
+        },
+        {
+          "id": 96,
+          "dir": 1
+        },
+        {
+          "id": 21,
+          "dir": 4
+        },
+        {
+          "id": 22,
+          "dir": 5
+        },
+        {
+          "id": 165,
+          "dir": 2
+        },
+        {
+          "id": 166,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -213.4222412109375,
+        "posY": 70.28242492675781,
+        "posZ": 1457.6854248046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 96,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 95,
+          "dir": 0
+        },
+        {
+          "id": 97,
+          "dir": 1
+        },
+        {
+          "id": 22,
+          "dir": 4
+        },
+        {
+          "id": 23,
+          "dir": 5
+        },
+        {
+          "id": 166,
+          "dir": 2
+        },
+        {
+          "id": 167,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -289.6560974121094,
+        "posY": 70.28242492675781,
+        "posZ": 1413.6717529296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 97,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 96,
+          "dir": 0
+        },
+        {
+          "id": 98,
+          "dir": 1
+        },
+        {
+          "id": 23,
+          "dir": 4
+        },
+        {
+          "id": 24,
+          "dir": 5
+        },
+        {
+          "id": 167,
+          "dir": 2
+        },
+        {
+          "id": 168,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -357.0889587402344,
+        "posY": 70.28242492675781,
+        "posZ": 1357.0888671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 98,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 97,
+          "dir": 0
+        },
+        {
+          "id": 99,
+          "dir": 1
+        },
+        {
+          "id": 24,
+          "dir": 4
+        },
+        {
+          "id": 25,
+          "dir": 5
+        },
+        {
+          "id": 168,
+          "dir": 2
+        },
+        {
+          "id": 169,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -413.6717834472656,
+        "posY": 70.28242492675781,
+        "posZ": 1289.6561279296875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 99,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 98,
+          "dir": 0
+        },
+        {
+          "id": 100,
+          "dir": 1
+        },
+        {
+          "id": 25,
+          "dir": 4
+        },
+        {
+          "id": 26,
+          "dir": 5
+        },
+        {
+          "id": 169,
+          "dir": 2
+        },
+        {
+          "id": 170,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -457.68548583984377,
+        "posY": 70.28242492675781,
+        "posZ": 1213.4222412109375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 100,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 99,
+          "dir": 0
+        },
+        {
+          "id": 101,
+          "dir": 1
+        },
+        {
+          "id": 26,
+          "dir": 4
+        },
+        {
+          "id": 27,
+          "dir": 5
+        },
+        {
+          "id": 170,
+          "dir": 2
+        },
+        {
+          "id": 171,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -487.79254150390627,
+        "posY": 70.28242492675781,
+        "posZ": 1130.70361328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 101,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 100,
+          "dir": 0
+        },
+        {
+          "id": 102,
+          "dir": 1
+        },
+        {
+          "id": 27,
+          "dir": 4
+        },
+        {
+          "id": 28,
+          "dir": 5
+        },
+        {
+          "id": 171,
+          "dir": 2
+        },
+        {
+          "id": 172,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -503.0783386230469,
+        "posY": 70.28242492675781,
+        "posZ": 1044.013671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 102,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 101,
+          "dir": 0
+        },
+        {
+          "id": 103,
+          "dir": 1
+        },
+        {
+          "id": 28,
+          "dir": 4
+        },
+        {
+          "id": 29,
+          "dir": 5
+        },
+        {
+          "id": 172,
+          "dir": 2
+        },
+        {
+          "id": 173,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -503.0783386230469,
+        "posY": 70.28242492675781,
+        "posZ": 955.986328125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 103,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 102,
+          "dir": 0
+        },
+        {
+          "id": 104,
+          "dir": 1
+        },
+        {
+          "id": 29,
+          "dir": 4
+        },
+        {
+          "id": 30,
+          "dir": 5
+        },
+        {
+          "id": 173,
+          "dir": 2
+        },
+        {
+          "id": 174,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -487.79254150390627,
+        "posY": 70.28242492675781,
+        "posZ": 869.29638671875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 104,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 103,
+          "dir": 0
+        },
+        {
+          "id": 105,
+          "dir": 1
+        },
+        {
+          "id": 30,
+          "dir": 4
+        },
+        {
+          "id": 31,
+          "dir": 5
+        },
+        {
+          "id": 174,
+          "dir": 2
+        },
+        {
+          "id": 175,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -457.68548583984377,
+        "posY": 70.28242492675781,
+        "posZ": 786.5777587890625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 105,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 104,
+          "dir": 0
+        },
+        {
+          "id": 106,
+          "dir": 1
+        },
+        {
+          "id": 31,
+          "dir": 4
+        },
+        {
+          "id": 32,
+          "dir": 5
+        },
+        {
+          "id": 175,
+          "dir": 2
+        },
+        {
+          "id": 176,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -413.6717834472656,
+        "posY": 70.28242492675781,
+        "posZ": 710.3438720703125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 106,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 105,
+          "dir": 0
+        },
+        {
+          "id": 107,
+          "dir": 1
+        },
+        {
+          "id": 32,
+          "dir": 4
+        },
+        {
+          "id": 33,
+          "dir": 5
+        },
+        {
+          "id": 176,
+          "dir": 2
+        },
+        {
+          "id": 177,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -357.0889587402344,
+        "posY": 70.28242492675781,
+        "posZ": 642.9110107421875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 107,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 106,
+          "dir": 0
+        },
+        {
+          "id": 108,
+          "dir": 1
+        },
+        {
+          "id": 33,
+          "dir": 4
+        },
+        {
+          "id": 34,
+          "dir": 5
+        },
+        {
+          "id": 177,
+          "dir": 2
+        },
+        {
+          "id": 178,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -289.6560974121094,
+        "posY": 70.28242492675781,
+        "posZ": 586.3281860351563,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 108,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": 107,
+          "dir": 0
+        },
+        {
+          "id": 73,
+          "dir": 1
+        },
+        {
+          "id": 34,
+          "dir": 4
+        },
+        {
+          "id": 35,
+          "dir": 5
+        },
+        {
+          "id": 178,
+          "dir": 2
+        },
+        {
+          "id": 179,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -213.4222412109375,
+        "posY": 70.28242492675781,
+        "posZ": 542.3145751953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 109,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 110,
+          "dir": 1
+        },
+        {
+          "id": 38,
+          "dir": 2
+        },
+        {
+          "id": 39,
+          "dir": 3
+        },
+        {
+          "id": 144,
+          "dir": 0
+        }
+      ],
+      "territoryToSave": {
+        "posX": 6.01281787489423e-14,
+        "posY": -139.45155334472657,
+        "posZ": 508.9999694824219,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 110,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 109,
+          "dir": 0
+        },
+        {
+          "id": 111,
+          "dir": 1
+        },
+        {
+          "id": 39,
+          "dir": 2
+        },
+        {
+          "id": 40,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 85.2612533569336,
+        "posY": -139.45155334472657,
+        "posZ": 516.4593505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 111,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 110,
+          "dir": 0
+        },
+        {
+          "id": 112,
+          "dir": 1
+        },
+        {
+          "id": 40,
+          "dir": 2
+        },
+        {
+          "id": 41,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 167.93191528320313,
+        "posY": -139.45155334472657,
+        "posZ": 538.61083984375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 112,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 111,
+          "dir": 0
+        },
+        {
+          "id": 113,
+          "dir": 1
+        },
+        {
+          "id": 41,
+          "dir": 2
+        },
+        {
+          "id": 42,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 245.50001525878907,
+        "posY": -139.45155334472657,
+        "posZ": 574.781494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 113,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 112,
+          "dir": 0
+        },
+        {
+          "id": 114,
+          "dir": 1
+        },
+        {
+          "id": 42,
+          "dir": 2
+        },
+        {
+          "id": 43,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 315.6087341308594,
+        "posY": -139.45155334472657,
+        "posZ": 623.8721923828125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 114,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 113,
+          "dir": 0
+        },
+        {
+          "id": 115,
+          "dir": 1
+        },
+        {
+          "id": 43,
+          "dir": 2
+        },
+        {
+          "id": 44,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 376.1278381347656,
+        "posY": -139.45155334472657,
+        "posZ": 684.3912963867188,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 115,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 114,
+          "dir": 0
+        },
+        {
+          "id": 116,
+          "dir": 1
+        },
+        {
+          "id": 44,
+          "dir": 2
+        },
+        {
+          "id": 45,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 425.218505859375,
+        "posY": -139.45155334472657,
+        "posZ": 754.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 116,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 115,
+          "dir": 0
+        },
+        {
+          "id": 117,
+          "dir": 1
+        },
+        {
+          "id": 45,
+          "dir": 2
+        },
+        {
+          "id": 46,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 461.38909912109377,
+        "posY": -139.45155334472657,
+        "posZ": 832.068115234375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 117,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 116,
+          "dir": 0
+        },
+        {
+          "id": 118,
+          "dir": 1
+        },
+        {
+          "id": 46,
+          "dir": 2
+        },
+        {
+          "id": 47,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 483.5406188964844,
+        "posY": -139.45155334472657,
+        "posZ": 914.73876953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 118,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 117,
+          "dir": 0
+        },
+        {
+          "id": 119,
+          "dir": 1
+        },
+        {
+          "id": 47,
+          "dir": 2
+        },
+        {
+          "id": 48,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 491.0000305175781,
+        "posY": -139.45155334472657,
+        "posZ": 1000.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 119,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 118,
+          "dir": 0
+        },
+        {
+          "id": 120,
+          "dir": 1
+        },
+        {
+          "id": 48,
+          "dir": 2
+        },
+        {
+          "id": 49,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 483.5406188964844,
+        "posY": -139.45155334472657,
+        "posZ": 1085.26123046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 120,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 119,
+          "dir": 0
+        },
+        {
+          "id": 121,
+          "dir": 1
+        },
+        {
+          "id": 49,
+          "dir": 2
+        },
+        {
+          "id": 50,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 461.38909912109377,
+        "posY": -139.45155334472657,
+        "posZ": 1167.931884765625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 121,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 120,
+          "dir": 0
+        },
+        {
+          "id": 122,
+          "dir": 1
+        },
+        {
+          "id": 50,
+          "dir": 2
+        },
+        {
+          "id": 51,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 425.218505859375,
+        "posY": -139.45155334472657,
+        "posZ": 1245.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 122,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 121,
+          "dir": 0
+        },
+        {
+          "id": 123,
+          "dir": 1
+        },
+        {
+          "id": 51,
+          "dir": 2
+        },
+        {
+          "id": 52,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 376.1278381347656,
+        "posY": -139.45155334472657,
+        "posZ": 1315.6087646484375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 123,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 122,
+          "dir": 0
+        },
+        {
+          "id": 124,
+          "dir": 1
+        },
+        {
+          "id": 52,
+          "dir": 2
+        },
+        {
+          "id": 53,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 315.6087341308594,
+        "posY": -139.45155334472657,
+        "posZ": 1376.1278076171875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 124,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 123,
+          "dir": 0
+        },
+        {
+          "id": 125,
+          "dir": 1
+        },
+        {
+          "id": 53,
+          "dir": 2
+        },
+        {
+          "id": 54,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 245.50001525878907,
+        "posY": -139.45155334472657,
+        "posZ": 1425.218505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 125,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 124,
+          "dir": 0
+        },
+        {
+          "id": 126,
+          "dir": 1
+        },
+        {
+          "id": 54,
+          "dir": 2
+        },
+        {
+          "id": 55,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 167.93191528320313,
+        "posY": -139.45155334472657,
+        "posZ": 1461.3890380859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 126,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 125,
+          "dir": 0
+        },
+        {
+          "id": 127,
+          "dir": 1
+        },
+        {
+          "id": 55,
+          "dir": 2
+        },
+        {
+          "id": 56,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 85.2612533569336,
+        "posY": -139.45155334472657,
+        "posZ": 1483.5406494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 127,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 126,
+          "dir": 0
+        },
+        {
+          "id": 128,
+          "dir": 1
+        },
+        {
+          "id": 56,
+          "dir": 2
+        },
+        {
+          "id": 57,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": 0.0,
+        "posY": -139.45155334472657,
+        "posZ": 1491.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 128,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 127,
+          "dir": 0
+        },
+        {
+          "id": 129,
+          "dir": 1
+        },
+        {
+          "id": 57,
+          "dir": 2
+        },
+        {
+          "id": 58,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -85.2612533569336,
+        "posY": -139.45155334472657,
+        "posZ": 1483.5406494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 129,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 128,
+          "dir": 0
+        },
+        {
+          "id": 130,
+          "dir": 1
+        },
+        {
+          "id": 58,
+          "dir": 2
+        },
+        {
+          "id": 59,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -167.93191528320313,
+        "posY": -139.45155334472657,
+        "posZ": 1461.3890380859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 130,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 129,
+          "dir": 0
+        },
+        {
+          "id": 131,
+          "dir": 1
+        },
+        {
+          "id": 59,
+          "dir": 2
+        },
+        {
+          "id": 60,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -245.50001525878907,
+        "posY": -139.45155334472657,
+        "posZ": 1425.218505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 131,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 130,
+          "dir": 0
+        },
+        {
+          "id": 132,
+          "dir": 1
+        },
+        {
+          "id": 60,
+          "dir": 2
+        },
+        {
+          "id": 61,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -315.6087341308594,
+        "posY": -139.45155334472657,
+        "posZ": 1376.1278076171875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 132,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 131,
+          "dir": 0
+        },
+        {
+          "id": 133,
+          "dir": 1
+        },
+        {
+          "id": 61,
+          "dir": 2
+        },
+        {
+          "id": 62,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -376.1278381347656,
+        "posY": -139.45155334472657,
+        "posZ": 1315.6087646484375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 133,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 132,
+          "dir": 0
+        },
+        {
+          "id": 134,
+          "dir": 1
+        },
+        {
+          "id": 62,
+          "dir": 2
+        },
+        {
+          "id": 63,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -425.218505859375,
+        "posY": -139.45155334472657,
+        "posZ": 1245.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 134,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 133,
+          "dir": 0
+        },
+        {
+          "id": 135,
+          "dir": 1
+        },
+        {
+          "id": 63,
+          "dir": 2
+        },
+        {
+          "id": 64,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -461.38909912109377,
+        "posY": -139.45155334472657,
+        "posZ": 1167.931884765625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 135,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 134,
+          "dir": 0
+        },
+        {
+          "id": 136,
+          "dir": 1
+        },
+        {
+          "id": 64,
+          "dir": 2
+        },
+        {
+          "id": 65,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -483.5406188964844,
+        "posY": -139.45155334472657,
+        "posZ": 1085.26123046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 136,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 135,
+          "dir": 0
+        },
+        {
+          "id": 137,
+          "dir": 1
+        },
+        {
+          "id": 65,
+          "dir": 2
+        },
+        {
+          "id": 66,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -491.0000305175781,
+        "posY": -139.45155334472657,
+        "posZ": 1000.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 137,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 136,
+          "dir": 0
+        },
+        {
+          "id": 138,
+          "dir": 1
+        },
+        {
+          "id": 66,
+          "dir": 2
+        },
+        {
+          "id": 67,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -483.5406188964844,
+        "posY": -139.45155334472657,
+        "posZ": 914.73876953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 138,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 137,
+          "dir": 0
+        },
+        {
+          "id": 139,
+          "dir": 1
+        },
+        {
+          "id": 67,
+          "dir": 2
+        },
+        {
+          "id": 68,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -461.38909912109377,
+        "posY": -139.45155334472657,
+        "posZ": 832.068115234375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 139,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 138,
+          "dir": 0
+        },
+        {
+          "id": 140,
+          "dir": 1
+        },
+        {
+          "id": 68,
+          "dir": 2
+        },
+        {
+          "id": 69,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -425.218505859375,
+        "posY": -139.45155334472657,
+        "posZ": 754.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 140,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 139,
+          "dir": 0
+        },
+        {
+          "id": 141,
+          "dir": 1
+        },
+        {
+          "id": 69,
+          "dir": 2
+        },
+        {
+          "id": 70,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -376.1278381347656,
+        "posY": -139.45155334472657,
+        "posZ": 684.3912963867188,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 141,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 140,
+          "dir": 0
+        },
+        {
+          "id": 142,
+          "dir": 1
+        },
+        {
+          "id": 70,
+          "dir": 2
+        },
+        {
+          "id": 71,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -315.6087341308594,
+        "posY": -139.45155334472657,
+        "posZ": 623.8721923828125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 142,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 141,
+          "dir": 0
+        },
+        {
+          "id": 143,
+          "dir": 1
+        },
+        {
+          "id": 71,
+          "dir": 2
+        },
+        {
+          "id": 72,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -245.50001525878907,
+        "posY": -139.45155334472657,
+        "posZ": 574.781494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 143,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 142,
+          "dir": 0
+        },
+        {
+          "id": 144,
+          "dir": 1
+        },
+        {
+          "id": 72,
+          "dir": 2
+        },
+        {
+          "id": 37,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -167.93191528320313,
+        "posY": -139.45155334472657,
+        "posZ": 538.61083984375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 144,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 4
+        },
+        {
+          "id": -1,
+          "dir": 5
+        },
+        {
+          "id": 143,
+          "dir": 0
+        },
+        {
+          "id": 109,
+          "dir": 1
+        },
+        {
+          "id": 37,
+          "dir": 2
+        },
+        {
+          "id": 38,
+          "dir": 3
+        }
+      ],
+      "territoryToSave": {
+        "posX": -85.2612533569336,
+        "posY": -139.45155334472657,
+        "posZ": 516.4593505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 145,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 146,
+          "dir": 1
+        },
+        {
+          "id": 74,
+          "dir": 4
+        },
+        {
+          "id": 75,
+          "dir": 5
+        },
+        {
+          "id": 180,
+          "dir": 0
+        }
+      ],
+      "territoryToSave": {
+        "posX": 6.01281787489423e-14,
+        "posY": 139.45155334472657,
+        "posZ": 508.9999694824219,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 146,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 145,
+          "dir": 0
+        },
+        {
+          "id": 147,
+          "dir": 1
+        },
+        {
+          "id": 75,
+          "dir": 4
+        },
+        {
+          "id": 76,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 85.2612533569336,
+        "posY": 139.45155334472657,
+        "posZ": 516.4593505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 147,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 146,
+          "dir": 0
+        },
+        {
+          "id": 148,
+          "dir": 1
+        },
+        {
+          "id": 76,
+          "dir": 4
+        },
+        {
+          "id": 77,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 167.93191528320313,
+        "posY": 139.45155334472657,
+        "posZ": 538.61083984375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 148,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 147,
+          "dir": 0
+        },
+        {
+          "id": 149,
+          "dir": 1
+        },
+        {
+          "id": 77,
+          "dir": 4
+        },
+        {
+          "id": 78,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 245.50001525878907,
+        "posY": 139.45155334472657,
+        "posZ": 574.781494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 149,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 148,
+          "dir": 0
+        },
+        {
+          "id": 150,
+          "dir": 1
+        },
+        {
+          "id": 78,
+          "dir": 4
+        },
+        {
+          "id": 79,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 315.6087341308594,
+        "posY": 139.45155334472657,
+        "posZ": 623.8721923828125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 150,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 149,
+          "dir": 0
+        },
+        {
+          "id": 151,
+          "dir": 1
+        },
+        {
+          "id": 79,
+          "dir": 4
+        },
+        {
+          "id": 80,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 376.1278381347656,
+        "posY": 139.45155334472657,
+        "posZ": 684.3912963867188,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 151,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 150,
+          "dir": 0
+        },
+        {
+          "id": 152,
+          "dir": 1
+        },
+        {
+          "id": 80,
+          "dir": 4
+        },
+        {
+          "id": 81,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 425.218505859375,
+        "posY": 139.45155334472657,
+        "posZ": 754.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 152,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 151,
+          "dir": 0
+        },
+        {
+          "id": 153,
+          "dir": 1
+        },
+        {
+          "id": 81,
+          "dir": 4
+        },
+        {
+          "id": 82,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 461.38909912109377,
+        "posY": 139.45155334472657,
+        "posZ": 832.068115234375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 153,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 152,
+          "dir": 0
+        },
+        {
+          "id": 154,
+          "dir": 1
+        },
+        {
+          "id": 82,
+          "dir": 4
+        },
+        {
+          "id": 83,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 483.5406188964844,
+        "posY": 139.45155334472657,
+        "posZ": 914.73876953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 154,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 153,
+          "dir": 0
+        },
+        {
+          "id": 155,
+          "dir": 1
+        },
+        {
+          "id": 83,
+          "dir": 4
+        },
+        {
+          "id": 84,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 491.0000305175781,
+        "posY": 139.45155334472657,
+        "posZ": 1000.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 155,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 154,
+          "dir": 0
+        },
+        {
+          "id": 156,
+          "dir": 1
+        },
+        {
+          "id": 84,
+          "dir": 4
+        },
+        {
+          "id": 85,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 483.5406188964844,
+        "posY": 139.45155334472657,
+        "posZ": 1085.26123046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 156,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 155,
+          "dir": 0
+        },
+        {
+          "id": 157,
+          "dir": 1
+        },
+        {
+          "id": 85,
+          "dir": 4
+        },
+        {
+          "id": 86,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 461.38909912109377,
+        "posY": 139.45155334472657,
+        "posZ": 1167.931884765625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 157,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 156,
+          "dir": 0
+        },
+        {
+          "id": 158,
+          "dir": 1
+        },
+        {
+          "id": 86,
+          "dir": 4
+        },
+        {
+          "id": 87,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 425.218505859375,
+        "posY": 139.45155334472657,
+        "posZ": 1245.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 158,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 157,
+          "dir": 0
+        },
+        {
+          "id": 159,
+          "dir": 1
+        },
+        {
+          "id": 87,
+          "dir": 4
+        },
+        {
+          "id": 88,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 376.1278381347656,
+        "posY": 139.45155334472657,
+        "posZ": 1315.6087646484375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 159,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 158,
+          "dir": 0
+        },
+        {
+          "id": 160,
+          "dir": 1
+        },
+        {
+          "id": 88,
+          "dir": 4
+        },
+        {
+          "id": 89,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 315.6087341308594,
+        "posY": 139.45155334472657,
+        "posZ": 1376.1278076171875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 160,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 159,
+          "dir": 0
+        },
+        {
+          "id": 161,
+          "dir": 1
+        },
+        {
+          "id": 89,
+          "dir": 4
+        },
+        {
+          "id": 90,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 245.50001525878907,
+        "posY": 139.45155334472657,
+        "posZ": 1425.218505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 161,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 160,
+          "dir": 0
+        },
+        {
+          "id": 162,
+          "dir": 1
+        },
+        {
+          "id": 90,
+          "dir": 4
+        },
+        {
+          "id": 91,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 167.93191528320313,
+        "posY": 139.45155334472657,
+        "posZ": 1461.3890380859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 162,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 161,
+          "dir": 0
+        },
+        {
+          "id": 163,
+          "dir": 1
+        },
+        {
+          "id": 91,
+          "dir": 4
+        },
+        {
+          "id": 92,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 85.2612533569336,
+        "posY": 139.45155334472657,
+        "posZ": 1483.5406494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 163,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 162,
+          "dir": 0
+        },
+        {
+          "id": 164,
+          "dir": 1
+        },
+        {
+          "id": 92,
+          "dir": 4
+        },
+        {
+          "id": 93,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": 0.0,
+        "posY": 139.45155334472657,
+        "posZ": 1491.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 164,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 163,
+          "dir": 0
+        },
+        {
+          "id": 165,
+          "dir": 1
+        },
+        {
+          "id": 93,
+          "dir": 4
+        },
+        {
+          "id": 94,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -85.2612533569336,
+        "posY": 139.45155334472657,
+        "posZ": 1483.5406494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 165,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 164,
+          "dir": 0
+        },
+        {
+          "id": 166,
+          "dir": 1
+        },
+        {
+          "id": 94,
+          "dir": 4
+        },
+        {
+          "id": 95,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -167.93191528320313,
+        "posY": 139.45155334472657,
+        "posZ": 1461.3890380859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 166,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 165,
+          "dir": 0
+        },
+        {
+          "id": 167,
+          "dir": 1
+        },
+        {
+          "id": 95,
+          "dir": 4
+        },
+        {
+          "id": 96,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -245.50001525878907,
+        "posY": 139.45155334472657,
+        "posZ": 1425.218505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 167,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 166,
+          "dir": 0
+        },
+        {
+          "id": 168,
+          "dir": 1
+        },
+        {
+          "id": 96,
+          "dir": 4
+        },
+        {
+          "id": 97,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -315.6087341308594,
+        "posY": 139.45155334472657,
+        "posZ": 1376.1278076171875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 168,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 167,
+          "dir": 0
+        },
+        {
+          "id": 169,
+          "dir": 1
+        },
+        {
+          "id": 97,
+          "dir": 4
+        },
+        {
+          "id": 98,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -376.1278381347656,
+        "posY": 139.45155334472657,
+        "posZ": 1315.6087646484375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 169,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 168,
+          "dir": 0
+        },
+        {
+          "id": 170,
+          "dir": 1
+        },
+        {
+          "id": 98,
+          "dir": 4
+        },
+        {
+          "id": 99,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -425.218505859375,
+        "posY": 139.45155334472657,
+        "posZ": 1245.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 170,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 169,
+          "dir": 0
+        },
+        {
+          "id": 171,
+          "dir": 1
+        },
+        {
+          "id": 99,
+          "dir": 4
+        },
+        {
+          "id": 100,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -461.38909912109377,
+        "posY": 139.45155334472657,
+        "posZ": 1167.931884765625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 171,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 170,
+          "dir": 0
+        },
+        {
+          "id": 172,
+          "dir": 1
+        },
+        {
+          "id": 100,
+          "dir": 4
+        },
+        {
+          "id": 101,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -483.5406188964844,
+        "posY": 139.45155334472657,
+        "posZ": 1085.26123046875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 172,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 171,
+          "dir": 0
+        },
+        {
+          "id": 173,
+          "dir": 1
+        },
+        {
+          "id": 101,
+          "dir": 4
+        },
+        {
+          "id": 102,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -491.0000305175781,
+        "posY": 139.45155334472657,
+        "posZ": 1000.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 173,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 172,
+          "dir": 0
+        },
+        {
+          "id": 174,
+          "dir": 1
+        },
+        {
+          "id": 102,
+          "dir": 4
+        },
+        {
+          "id": 103,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -483.5406188964844,
+        "posY": 139.45155334472657,
+        "posZ": 914.73876953125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 174,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 173,
+          "dir": 0
+        },
+        {
+          "id": 175,
+          "dir": 1
+        },
+        {
+          "id": 103,
+          "dir": 4
+        },
+        {
+          "id": 104,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -461.38909912109377,
+        "posY": 139.45155334472657,
+        "posZ": 832.068115234375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 175,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 174,
+          "dir": 0
+        },
+        {
+          "id": 176,
+          "dir": 1
+        },
+        {
+          "id": 104,
+          "dir": 4
+        },
+        {
+          "id": 105,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -425.218505859375,
+        "posY": 139.45155334472657,
+        "posZ": 754.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 176,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 175,
+          "dir": 0
+        },
+        {
+          "id": 177,
+          "dir": 1
+        },
+        {
+          "id": 105,
+          "dir": 4
+        },
+        {
+          "id": 106,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -376.1278381347656,
+        "posY": 139.45155334472657,
+        "posZ": 684.3912963867188,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 177,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 176,
+          "dir": 0
+        },
+        {
+          "id": 178,
+          "dir": 1
+        },
+        {
+          "id": 106,
+          "dir": 4
+        },
+        {
+          "id": 107,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -315.6087341308594,
+        "posY": 139.45155334472657,
+        "posZ": 623.8721923828125,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 178,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 177,
+          "dir": 0
+        },
+        {
+          "id": 179,
+          "dir": 1
+        },
+        {
+          "id": 107,
+          "dir": 4
+        },
+        {
+          "id": 108,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -245.50001525878907,
+        "posY": 139.45155334472657,
+        "posZ": 574.781494140625,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 179,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 178,
+          "dir": 0
+        },
+        {
+          "id": 180,
+          "dir": 1
+        },
+        {
+          "id": 108,
+          "dir": 4
+        },
+        {
+          "id": 73,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -167.93191528320313,
+        "posY": 139.45155334472657,
+        "posZ": 538.61083984375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    },
+    {
+      "id": 180,
+      "buildingModel": {
+        "id": 0,
+        "type": 0
+      },
+      "neighboursToSave": [
+        {
+          "id": -1,
+          "dir": 2
+        },
+        {
+          "id": -1,
+          "dir": 3
+        },
+        {
+          "id": 179,
+          "dir": 0
+        },
+        {
+          "id": 145,
+          "dir": 1
+        },
+        {
+          "id": 73,
+          "dir": 4
+        },
+        {
+          "id": 74,
+          "dir": 5
+        }
+      ],
+      "territoryToSave": {
+        "posX": -85.2612533569336,
+        "posY": 139.45155334472657,
+        "posZ": 516.4593505859375,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "buildingToSave": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 0.0,
+        "scaleZ": 0.0
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "hexagonId": 180,
+      "type": 0,
+      "eventToSave": {
+        "posX": -104.99564361572266,
+        "posY": 139.45156860351563,
+        "posZ": 520.357421875,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      }
+    },
+    {
+      "id": 2,
+      "hexagonId": 1,
+      "type": 1,
+      "eventToSave": {
+        "posX": -27.946109771728517,
+        "posY": 3.128869234016174e-14,
+        "posZ": 489.76470947265627,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      }
+    },
+    {
+      "id": 3,
+      "hexagonId": 146,
+      "type": 2,
+      "eventToSave": {
+        "posX": 53.69629669189453,
+        "posY": 139.45156860351563,
+        "posZ": 511.94488525390627,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      }
+    }
+  ],
+  "oxygenLevel": 1,
+  "temperatureLevel": -30,
+  "oceanLevel": 0,
+  "generation": 0,
+  "isGameEnded": false,
+  "score": 0
+}
